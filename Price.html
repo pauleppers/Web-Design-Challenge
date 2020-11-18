@@ -20,18 +20,42 @@
 <body>
   <div class="container">
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="index.html">John Deere</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
       
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          <li class="navbar nav-item active">
+              <a href="Comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="navbar nav-item">
+              <a href="DeereData.html">Data</a>
+          </li>
+          <li class="navbar nav-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a  href="Price.html">Prices</a><br>
+              <a  href="Bollinger.html">Bollinger</a><br>
+              <a  href="RSI.html">RSI</a><br>
+              </div>
+          </li>
+          </ul>
+      </div>
+    </nav>
 
-
-
-   
     <div class="row">
       <div class="col-md-8 col-sm-12" >
         <h5>John Deere Price Change Over the Last Year</h5>
-        <img class="track=image" src="Images/DEvs1y.png" alt ="John Deere Price"/>
+        <img class="track-image" src="Images/DEvs1y.png" alt ="John Deere Price"/>
           <p>One years worth of data most likely is not enough data to do a fair comparison here. Because of the Covid pandemic hitting markets in 
           March of 2020, most markets declined and have since rebounded. But since corn and soybeans have continually gone up,
-          as well as the stock price of John Deere, further analysis both in the past and the future are warranted.</p>           
+          as well as the stock price of John Deere, further analysis both in the past and the future are warranted.<strong>John Deere stock price 
+          is at an all time high trending higher along with corn and soybeans.</strong></p>
       
         <h5>Corn Price Change Over the Last Year</h5>
         <img class="track-image" src="Images/Corn.png" alt ="Corn Price"/> 

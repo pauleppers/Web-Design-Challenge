@@ -17,11 +17,34 @@
 
 
 <main class="container">   <!-- bootstrap style-->
-    <div class="row pad-head">
-        <div class="col-12">
-            <a href = "index.html">DE Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html">John Deere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="navbar nav-item active">
+                <a href="Comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navbar nav-item">
+                <a href="DeereData.html">Data</a>
+            </li>
+            <li class="navbar nav-item dropdown">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a  href="Price.html">Prices</a><br>
+                <a  href="Bollinger.html">Bollinger</a><br>
+                <a  href="RSI.html">RSI</a><br>
+                </div>
+            </li>
+            </ul>
         </div>
-    </div>
+    </nav>
+  
     <div class="row">
         <div class="col-12 black">            
             <p>The following table includes all of the data used for plotting during this project.</p>
