@@ -1,14 +1,13 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
-.black{
-  color: black;
-  background: lightgreen;
-}
-
 .pad-head{
   padding-top:10px;
   padding-bottom:30px;
   background: lightgreen;
+  color: #367c2b;
+}
+
+.green {
   color: #367c2b;
 }
 .compar {
@@ -16,64 +15,44 @@
   padding: 10px;
 }
 .wid90 {
+  width: 0%;
   background: lightgreen;
 }
-.pos-rel {
+/* .pos-rel {
   position: relative;
+} */
+.track {
+  width: 60%;
+  padding: 10px;
+  float:left;
 }
 .track-image {
-  width: 50%;
-  /* height: 170px; */
-  float:left;
-  padding-right: 10px;
+  width: 90%;
+  padding: 10px;
 }
-.small{
+/* .small{
   position: absolute;
   width: 60%;
   height: 60%;
   background-color: chartreuse;
   border: black
-}
-.box1 {
-  top: 0%;
-  left: 0%;
-}
-.box2 {
-  top: 0%;
-  left: 25%;
-}
-.box3 {
-  top: 0%;
-  right: 0%;
-}
-.box4 {
-  bottom: 0%;
-  right: 0%;
-}
-.box {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background: lightgrey;
-}
+} */
+
 body {
   background: #f1f1f1;
   color: #367c2b;
   padding: 5px;
 }
-.imganal {
-  width: 100px;
-  /* height: 200px; */
-}
 
 
-
-
-article {color: #367c2b;
+/* article {color: #367c2b;
   font-size: 15px;
-}
+}  */
 a {color: #367c2b;
   font-size: 25px;
+}
+.navbar {
+  padding: 10px;
 }
 
 h1 {
@@ -85,13 +64,10 @@ h1 {
 
 h3 {
   font-size: 30px;
-}
+} 
 
-/* Giving our navbar some padding and a background color */
-.navbar {
-  padding: 10px;
-  background: #5191fd;
-}
+/* Giving our navbar some padding and a background color
+
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
@@ -102,26 +78,26 @@ h3 {
   cursor: pointer;
   background: #fff;
   border-radius: 3px;
-}
+} 
 
 
 /* Styling the header, giving it a height, a background color, and some top padding */
-.header {
+/* .header {
   height: 200px;
   padding-top: 20px;
   background: #cdcdcd;
 }
 
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+Centering our h1 tag inside our header, giving it a little padding, removing its margin
 .header h1 {
   padding: 60px;
   margin: 0;
   color: #000;
   text-align: center;
-}
+}  */
 
 /* Giving the .post element margin on 3 sides */
-.post {
+/* .post {
   margin-top: 50px;
   margin-right: 100px;
   margin-left: 100px;
@@ -137,11 +113,11 @@ h3 {
   height: 75%;
   position: relative;
   background: orange;
-}
+}   */
 
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .navbar li {
     padding: 10px;
   }
@@ -158,4 +134,4 @@ h3 {
   #nav-select {
     visibility: visible;
   }
-}
+} */

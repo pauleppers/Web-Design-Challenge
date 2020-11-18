@@ -15,15 +15,14 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <main class="container">   <!-- bootstrap style-->
-        <div class="row">
-            <div class="col-sm-12 pad-head">DE Header</div>
-        </div>
+    <main class="container">   <!-- Bring in our bootstrap stylesheetCDN Content Delivery network-->
 
-        <div class="row">
-            <div class="col-sm-8 wid90">            
-                <h5>Project Summary: Stock Analysis-John Deere</h5>
-                <img class="track-image" src="Images/xTrack.jpg" alt ="John Deere Tractor"/>  
+        <section class = "wid90">
+            <h5>
+                Project Summary: Stock Analysis-John Deere
+            </h5>               
+            <section class="pos-rel">    
+                 <img class="track-image" src="Images/xTrack.jpg" alt ="John Deere Tractor"/>  
                  <p>John Deere is the largest Agriculture and Construction Equipment 
                 manufacturer in the world. While many factors go into how the company
                 performs, there are some key indicators both short term and long
@@ -31,45 +30,37 @@
                 
                 <p>After pulling the data from yahoo api, plots were generated for 
                 the last years (1y) of data. Factors include Bollinger Bands, RSI, 
-                corn prices and soybean prices</p>
-            </div>
-            
-            <div class="col-sm-4 wid90">
-                    <h5>Charts</h5>
-            
-                    <article>      
-                        <p>Prices</p>
-                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
-                            <img class = "imganal" src="Images/DEvs1y.png" alt ="John Deere Stock Price"/>
-                        </a>
-                    </article>
-      
-                    <article>      
-                        <p>Bollinger Bands</p>
-                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
-                            <img class = "imganal" src="Images/BollingerDEvs1y.png" alt ="Bollinger Bands"/>
-                        </a>
-                    </article>
-
-                    <article>      
-                        <p>RSI</p>
-                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
-                            <img class = "imganal" src="Images/RSIDEvs1y.png" alt ="RSI"/>
-                        </a>
-                    </article>
-            </div>
-        </div>
-
-        <section class = "wid90">
-           
-            <section class="pos-rel">    
- 
+                corn prices and soybean prices</p>     
             </section>                
 
  
         </section>
         <div class ="box">
 
+                <figure class = "small box1">      
+                    <article>      
+                        <h5>Prices</h5>
+                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
+                            <img class = "imganal" src="Images/DEvs1y.png" alt ="John Deere Stock Price"/>
+                        </a>
+                    </article>
+                </figure>
+                <figure class = "small box2">
+                    <article>      
+                        <h5>Bollinger</h5>
+                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
+                            <img class = "imganal" src="Images/BollingerDEvs1y.png" alt ="Bollinger Bands"/>
+                        </a>
+                    </article></figure>
+                </figure>
+                <figure class = "small box3">
+                    <article>      
+                        <h5>RSI</h5>
+                        <a class="box-hover" target="_blank" href="JohnDeerePage.html">
+                            <img class = "imganal" src="Images/RSIDEvs1y.png" alt ="RSI"/>
+                        </a>
+                    </article></figure>
+                </figure>
         </div>
     </main>
 </body>
