@@ -1,7 +1,7 @@
 # Web Visualization Dashboard 
 Creating a visualization dashboard website using visualizations. <br>
 
-Individual pages for each plot that provides a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.<br>
+Individual pages for each plot that provides a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. There is also a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.<br>
 
 The website has on top of every page a navigation menu that:<br>
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.<br>
